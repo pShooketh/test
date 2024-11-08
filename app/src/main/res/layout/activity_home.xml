@@ -22,7 +22,6 @@
         android:layout_height="wrap_content"
         android:text="Scan QR" />
 
-    <!-- New Section: Rewards -->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"

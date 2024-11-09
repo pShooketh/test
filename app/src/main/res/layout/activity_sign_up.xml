@@ -6,6 +6,13 @@
     android:orientation="vertical">
 
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
         android:id="@+id/usernameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +26,14 @@
         android:gravity="center"
         android:hint="Password"
         android:inputType="textPassword" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Confirm Password"/>
+
 
     <Button
         android:id="@+id/loginButton"
@@ -41,14 +56,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Login with Facebook" />
+        android:text="Sign Up with Facebook" />
 
     <Button
         android:id="@+id/googleLoginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Login with Google" />
+        android:text="SIgn Up with Google" />
 
 
     <EditText
